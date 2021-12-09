@@ -15,3 +15,5 @@ function App() {
 }
 // / , /movie
 export default App;
+//temp.js->default layout-> DefaultHOC -> App.js -> Index.js
+//inner->outer
