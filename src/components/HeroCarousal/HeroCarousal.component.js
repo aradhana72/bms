@@ -26,8 +26,8 @@ const images = ["https://images.unsplash.com/photo-1497215728101-856f4ea42174?ix
     <>
     <HeroSlider {...settings}>
      {images.map((image)=>(
-       <div className="w-20 h-80">
-        <img src={image} alt="test-img" className="w-full h-full" />
+       <div className="w-20 h-96 px-2 py-3">
+        <img src={image} alt="test-img" className=" rounded-md w-full h-full" />
        </div>
      ))}
     </HeroSlider>
